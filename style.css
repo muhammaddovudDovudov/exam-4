@@ -1293,12 +1293,22 @@ footer{
         }
         .section20{
             flex-direction: column;
-            margin-bottom: 100px;
+            /* margin-bottom: 100px; */
             padding-bottom: 80px;
             height: auto !important;
             .form-box{
                 width: 80%;
                 margin: auto !important;
             }
+        }
+        footer{
+            p,span{
+                font-size: 12px;
+                width: 100px;
+                margin-top: 20px;
+            }
+        }
+        .links-f{
+            display: none !important;
         }
 }
