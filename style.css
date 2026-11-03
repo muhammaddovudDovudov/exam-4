@@ -744,7 +744,7 @@ header {
     border-radius: 10px;
     align-items: center;
     width: 70%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding-bottom: 50px;
     h5{
         margin-top: 40px;
@@ -758,6 +758,19 @@ header {
     }
     img{
         width: 260px;
+    }
+}
+
+
+
+.s14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 50px;
+    img{
+        width: 12%;
     }
 }
 
