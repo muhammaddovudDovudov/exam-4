@@ -704,6 +704,33 @@ header {
     }
 }
 
+.section12{
+    margin-top: 100px;
+    h2{
+        color: #016CA8;
+        margin-left: 240px;
+        margin-bottom: 50px;
+    }
+}
+
+.s12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 340px;
+    }
+    p{
+        margin-left: 50px;
+        font-size: 14px;
+        color: #000000;
+        span{
+            color:#1178B2;
+            font-weight: 600;
+        }
+    }
+}
+
 @media(max-width:600px) {
     header {
         gap: 0;
@@ -915,5 +942,20 @@ header {
         .box{
             width: 120% !important;
             padding-bottom: 30px;
+        }
+        .section12{
+            h2{
+                margin-left: 10%;
+            }
+        }
+        .s12{
+            flex-direction: column;
+            text-align: center;
+            p{
+                margin: auto;
+            }
+            img{
+                width: 90%;
+            }
         }
 }
