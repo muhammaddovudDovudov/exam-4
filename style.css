@@ -13,7 +13,7 @@
     padding-top: 30px;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/bg-s1.png);
     background-position: center;
-    height: 100vh;
+    height: 600px;
     background-size: cover;
 
     .zapustit-text {
@@ -965,6 +965,29 @@ header {
         border-radius: 10px;
     }
 }
+
+footer{
+    background: linear-gradient(rgba(2, 2, 2, 0.55), rgba(0, 0, 0, 0.55)),url(images/bg-footer.png);
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-position: center;
+    p,span{
+        font-size: 13px;
+        color: white;
+    }
+}
+.links-f{
+    display: flex;
+    gap: 30px;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+}
+
 @media(max-width:600px) {
     header {
         gap: 0;
